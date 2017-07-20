@@ -5,7 +5,7 @@
 
 (function (window, document) {
   const APIKEY = 'cce02f3a5bf240c7869131951171904'
-  const CITY = 'Salinas'
+  const CITY = 'Belem'
   const API = `https://api.apixu.com/v1/current.json?key=${APIKEY}&q=${CITY}`
   const answer = {
     text: document.querySelector('.app-answer > p'),
